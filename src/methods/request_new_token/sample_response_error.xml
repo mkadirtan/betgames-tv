@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>request_new_token</method>
+    <token>abc-eba8-012f-596c-528c3f9e4820</token>
+    <success>0</success>
+    <error_code>3</error_code>
+    <error_text>invalid token</error_text>
+    <time>1345808201</time>
+    <signature>f0dcd1cbc56e880230268b907e6baba6</signature>
+</root>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>transaction_bet_combination_payout</method>
+    <token>abc-eba8-012f-596c-528c3f9e4820</token>
+    <time>1543926924</time>
+    <params>
+        <player_id>c2696fe0-eba8-012f-596c-528c3f9e4820</player_id>
+        <amount>1234</amount>
+        <type>won</type>
+        <currency>eur</currency>
+        <combination_id>123</combination_id>
+        <bet>
+            <bet_id>1231</bet_id>
+            <game_id>1</game_id>
+            <transaction_id>1235</transaction_id>
+            <type>won</type>
+        </bet>
+        <bet>
+            <bet_id>1232</bet_id>
+            <game_id>3</game_id>
+            <transaction_id>1236</transaction_id>
+            <type>won</type>
+        </bet>
+    </params>
+    <signature>64112b374ec170ce603abd22e0dd49b1</signature>
+</root>

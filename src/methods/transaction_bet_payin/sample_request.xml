@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>transaction_bet_payout</method>
+    <token>c2696fe0-eba8-012f-596c-528c3f9e4820</token>
+    <signature>6b456702add1e09e1264a375400e6266</signature>
+    <time>1423128560</time>
+    <params>
+        <player_id>150205</player_id>
+        <amount>2034</amount>
+        <currency>eur</currency>
+        <bet_id>123456</bet_id>
+        <transaction_id>246913</transaction_id>
+        <retrying>0</retrying>
+        <bet_type>won</bet_type>
+        <game_id>1</game_id>
+    </params>
+</root>

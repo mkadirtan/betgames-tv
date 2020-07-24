@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>transaction_bet_combination_payin</method>
+    <token>c2696fe0-eba8-012f-596c-528c3f9e4820</token>
+    <time>1543926540</time>
+    <params>
+        <amount>1200</amount>
+        <odd_value>3</odd_value>
+        <currency>eur</currency>
+        <combination_id>123</combination_id>
+        <combination_time>2018-12-04 12:29:00</combination_time>
+        <is_mobile>0</is_mobile>
+        <bet>
+            <bet_id>1231</bet_id>
+            <transaction_id>1233</transaction_id>
+            <draw>
+                <code>51301010100</code>
+                <time>2018-01-01 00:00:00</time>
+            </draw>
+            <game>
+                <id>1</id>
+                <name>Lucky 7</name>
+                <translation>Lucky 7</translation>
+            </game>
+            <odd>
+                <name>More ODD numbered balls will be dropped</name>
+                <value>1.5</value>
+                <translation>More ODD numbered balls will be dropped</translation>
+            </odd>
+        </bet>
+        <bet>
+            <bet_id>1232</bet_id>
+            <transaction_id>1234</transaction_id>
+            <draw>
+                <code>51301010300</code>
+                <time>2018-01-01 00:00:00</time>
+            </draw>
+            <game>
+                <id>3</id>
+                <name>Lucky 5</name>
+                <translation>Lucky 5</translation>
+            </game>
+            <odd>
+                <name>COUNT of the dropped WHITE balls will be MORE than COUNT of the dropped RED balls</name>
+                <value>2</value>
+                <translation>COUNT of the dropped WHITE balls will be MORE than COUNT of the dropped RED balls</translation>
+            </odd>
+        </bet>
+    </params>
+    <signature>e32ce06ecfbdb76a1813e02881d63cc1</signature>
+</root>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>transaction_bet_payout</method>
+    <token>c2696fe0-eba8-012f-596c-528c3f9e4820</token>
+    <success>0</success>
+    <error_code>700</error_code>
+    <error_text>there is no PAYIN with provided bet_id</error_text>
+    <time>1423229288</time>
+    <signature>a678ae382bce2edd151a40d6b470e257</signature>
+</root>

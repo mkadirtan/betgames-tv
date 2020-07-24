@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>get_balance</method>
+    <token>c2696fe0-eba8-012f-596c-528c3f9e4820</token>
+    <success>1</success>
+    <error_code>0</error_code>
+    <error_text></error_text>
+    <time>1423126129</time>
+    <params>
+        <balance>50000</balance>
+    </params>
+    <signature>9f336db3614e5105cd5c7b32de5d65e6</signature>
+</root>

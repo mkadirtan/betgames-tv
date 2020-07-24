@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>ping</method>
+    <token>-</token>
+    <success>1</success>
+    <error_code>0</error_code>
+    <error_text></error_text>
+    <time>1423124663</time>
+    <params></params>
+    <signature>dee0dda6b4adc6c4e0f67c7e19a3ad0b</signature>
+</root>

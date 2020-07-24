@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>get_account_details</method>
+    <token>a2696fe0-eba8-012f-596c-528c3f9e4820</token>
+    <success>0</success>
+    <error_code>3</error_code>
+    <error_text>invalid token</error_text>
+    <time>1423147340</time>
+    <signature>bec2559abe0c28466027e383ac86ce19</signature>
+</root>

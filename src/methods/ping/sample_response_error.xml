@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>ping</method>
+    <token>-</token>
+    <success>0</success>
+    <error_code>1</error_code>
+    <error_text>wrong signature</error_text>
+    <time>1423124663</time>
+    <signature>2f731bac67c9a363602f773ac71d12b3</signature>
+</root>

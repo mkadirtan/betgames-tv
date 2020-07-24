@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>transaction_promo_payout</method>
+    <token>c2696fe0-eba8-012f-596c-528c3f9e4820</token>
+    <time>1576590749</time>
+    <signature>c7b61ec5c39c19846b51820ad3ff9c47</signature>
+    <params>
+        <player_id>123</player_id>
+        <currency>eur</currency>
+        <amount>1234</amount>
+        <promo_transaction_id>123456</promo_transaction_id>
+        <bet_id>41234</bet_id>
+    </params>
+</root>

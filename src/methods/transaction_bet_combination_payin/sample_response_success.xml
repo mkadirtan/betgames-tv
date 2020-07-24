@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>transaction_bet_combination_payin</method>
+    <token>c2696fe0-eba8-012f-596c-528c3f9e4820</token>
+    <success>1</success>
+    <error_code>0</error_code>
+    <error_text></error_text>
+    <time>1423127617</time>
+    <params>
+        <balance_after>48766</balance_after>
+        <already_processed>0</already_processed>
+    </params>
+    <signature>33059d3b8405d51d46a673c8acec1064</signature>
+</root>

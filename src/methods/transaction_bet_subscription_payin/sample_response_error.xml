@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>transaction_bet_payin</method>
+    <token>abc-eba8-012f-596c-528c3f9e4820</token>
+    <success>0</success>
+    <error_code>3</error_code>
+    <error_text>invalid token</error_text>
+    <time>1423229288</time>
+    <signature>06a2d3c9d7448ee6b0fad54d00cdb946</signature>
+</root>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>refresh_token</method>
+    <token>c2696fe0-eba8-012f-596c-528c3f9e4820</token>
+    <success>1</success>
+    <error_code>0</error_code>
+    <error_text></error_text>
+    <time>1423125818</time>
+    <params></params>
+    <signature>1cf45d34ef9951c5e9ae5494312f095b</signature>
+</root>

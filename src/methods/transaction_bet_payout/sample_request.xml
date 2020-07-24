@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>transaction_bet_subscription_payin</method>
+    <token>c2696fe0-eba8-012f-596c-528c3f9e4820</token>
+    <time>1528269625</time>
+    <signature>2beeb78d9f2f9b488fb8f8ae5211ff4f</signature>
+    <params>
+        <amount>6170</amount>
+        <currency>eur</currency>
+        <subscription_id>123456</subscription_id>
+        <subscription_time>2018-06-06 07:20:25</subscription_time>
+        <odd>
+            <name>SUM of the numbers on the dropped YELLOW balls will be LESS than 73.5</name>
+            <value>1.9</value>
+            <translation>SUM of the numbers on the dropped YELLOW balls will be LESS than 73.5</translation>
+        </odd>
+        <is_mobile>0</is_mobile>
+        <game>
+            <id>1</id>
+            <name>Lucky 7</name>
+            <translation>Lucky 7</translation>
+        </game>
+        <bet>
+            <bet_id>123456</bet_id>
+            <transaction_id>123456</transaction_id>
+            <amount>1234</amount>
+            <draw>
+                <code>71304050073</code>
+                <time>2018-06-06 07:23:25</time>
+            </draw>
+        </bet>
+        <bet>
+            <bet_id>123457</bet_id>
+            <transaction_id>123457</transaction_id>
+            <amount>1234</amount>
+            <draw>
+                <code>71304050074</code>
+                <time>2018-06-06 07:23:25</time>
+            </draw>
+        </bet>
+        <bet>
+            <bet_id>123458</bet_id>
+            <transaction_id>123458</transaction_id>
+            <amount>1234</amount>
+            <draw>
+                <code>71304050075</code>
+                <time>2018-06-06 07:23:25</time>
+            </draw>
+        </bet>
+        <bet>
+            <bet_id>123459</bet_id>
+            <transaction_id>123459</transaction_id>
+            <amount>1234</amount>
+            <draw>
+                <code>71304050076</code>
+                <time>2018-06-06 07:23:25</time>
+            </draw>
+        </bet>
+        <bet>
+            <bet_id>123460</bet_id>
+            <transaction_id>123460</transaction_id>
+            <amount>1234</amount>
+            <draw>
+                <code>71304050077</code>
+                <time>2018-06-06 07:23:25</time>
+            </draw>
+        </bet>
+    </params>
+</root>

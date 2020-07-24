@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>transaction_bet_payin</method>
+    <token>c2696fe0-eba8-012f-596c-528c3f9e4820</token>
+    <success>1</success>
+    <error_code>0</error_code>
+    <error_text></error_text>
+    <time>1423127617</time>
+    <params>
+        <balance_after>48766</balance_after>
+        <already_processed>0</already_processed>
+        <aams>S:M42BF200DC66DFQG T:N42BF200EBDD0BKJ</aams>
+    </params>
+    <signature>1a4938e2e6804c88d708f9ff8d323c64</signature>
+</root>

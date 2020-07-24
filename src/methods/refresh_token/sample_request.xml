@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <method>get_account_details</method>
+    <token>c2696fe0-eba8-012f-596c-528c3f9e4820</token>
+    <signature>59514741eae44d72480de631b98f51ce</signature>
+    <time>1423127764</time>
+    <params></params>
+</root>
