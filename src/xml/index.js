@@ -2,7 +2,7 @@ const {Builder, Parser} = require("xml2js");
 const sign = require("../utilities/sign");
 const {to} = require("await-to-js");
 
-async function create(method, token, params, success = 1, error_code = 0, error_text = "") {
+async function create(method, token, params = {}, success = 1, error_code = 0, error_text = "") {
     const time = Date.now().toString().slice(0, -3) // Time in seconds, drop last three characters
     const obj = {
         method,
