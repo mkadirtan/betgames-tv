@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-  <foo>sadasd</foo>
+  <method>get_account_details</method>
+  <token>c2696fe0-eba8-012f-596c-528c3f9e4820</token>
+  <success>1</success>
+  <error_code>0</error_code>
+  <error_text/>
+  <time>1423127764</time>
+  <params>
+    <user_id>150205</user_id>
+    <username>test_player</username>
+    <currency>eur</currency>
+    <info>Vilnius, LT</info>
+  </params>
+  <signature>ca9fd88a49f039f5bde952c31247f09a</signature>
 </root>
