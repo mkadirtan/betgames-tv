@@ -1,6 +1,6 @@
 const sign = require("../utilities/sign");
 
-module.exports.isValid = async function (request) {
+module.exports = async function (request) {
     const {root: requestObj} = request
     if (typeof requestObj !== "object" || !requestObj) {
         return new Error("No root object in request")
