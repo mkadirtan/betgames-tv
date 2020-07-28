@@ -25,47 +25,17 @@ async function create(method, token, params = {}, success = 1, error_code = 0, e
         rootName: 'root'
     })
 
-    const xmlObj = builder.buildObject({root: signedObject});
-    return xmlObj;
+    return builder.buildObject({root: signedObject});
 }
 
-async function isValid(request) {
-    if (!(typeof request === "string")) {
-        return new Error("Request must be string")
-    }
-
+async function readXML(request) {
     const parser = new Parser({explicitArray: false});
-    const [error, xmlObj] = await to(parser.parseStringPromise(request));
-    if (error) {
-        return new Error("Error while parsing request")
-    }
-
-    const {root: requestObj} = xmlObj
-    if (!(typeof xmlObj === "object") || !requestObj) {
-        return new Error("No root object in request")
-    }
-    const requestSignature = requestObj.signature;
-    requestObj.signature = undefined;
-
-    const testObject = JSON.parse(JSON.stringify(requestObj))
-    return sign(testObject) === requestSignature;
-}
-
-async function read(request) {
-    let error, valid, data;
-
-    [error, valid] = await to(isValid(request));
-    if (error) { return error }
-    if (!valid) { return new Error("Request signature is invalid") }
-
-    const parser = new Parser({explicitArray: false});
-    [error, data] = await to(parser.parseStringPromise(request))
+    const [error, data] = await to(parser.parseStringPromise(request))
     if(error) { return new Error("Can't parse request")}
     return data;
 }
 
 module.exports = {
     create,
-    isValid,
-    read
+    readXML
 }

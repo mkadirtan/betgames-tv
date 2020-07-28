@@ -1,9 +1,10 @@
 const xml = require("./src/xml");
 const credentials = require("./src/utilities/credentials");
+const verify = require("./src/utilities/verify");
 
 module.exports = {
     createSignedXML: xml.create,
-    readSignedXML: xml.read,
-    verifyXMLSignature: xml.isValid,
+    readXML: xml.readXML,
+    verifySignature: verify,
     setCredentials: credentials.set
 }
