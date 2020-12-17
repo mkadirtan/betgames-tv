@@ -9,10 +9,13 @@ module.exports = function(obj){
                 signature += _key + obj[key][_key]
             }
         } else {
-            signature += key + obj[key]
+            signature += key;
+            if(obj[key] !== undefined || obj[key] !== null){
+                signature += obj[key]
+            }
         }
-
     }
+
     signature += credentials.get().secret_key;
     return crypto.createHash("md5").update(signature).digest("hex");
 }
